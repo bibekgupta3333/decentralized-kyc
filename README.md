@@ -40,3 +40,9 @@ npx hardhat test
 npx hardhat node
 npx hardhat help
 ```
+
+### Some screenshot
+- ![image](https://github.com/bibekgupta3333/decentralized-kyc/assets/46109418/b1a01347-4dd1-40d6-bd78-23159f24b1b6)
+- ![image](https://github.com/bibekgupta3333/decentralized-kyc/assets/46109418/644d3016-84c4-4798-ad6f-a9d73bcd7709)
+
+
