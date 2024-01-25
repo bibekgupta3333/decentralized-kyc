@@ -770,9 +770,7 @@ export const TransactionsProvider = ({ children }) => {
         });
 
         setCitizenshipFrontHash(kycDetailFromContract.citizenshipFrontHash);
-        // const citizenshipFrontPhotoPath = await retrieveFiles(
-        //   kycDetailFromContract.citizenshipFrontHash
-        // );
+
         fetch(
           `https://${THIRD_WORLD_CLIENT_ID}.ipfscdn.io/ipfs/${kycDetailFromContract.citizenshipFrontHash}/citizenshipFrontHash`
         ).then(function (response) {
@@ -790,9 +788,7 @@ export const TransactionsProvider = ({ children }) => {
         });
 
         setCitizenshipBackHash(kycDetailFromContract.citizenshipBackHash);
-        // const citizenshipBackPhotoPath = await retrieveFiles(
-        //   kycDetailFromContract.citizenshipBackHash
-        // );
+
         fetch(
           `https://${THIRD_WORLD_CLIENT_ID}.ipfscdn.io/ipfs/${kycDetailFromContract.citizenshipBackHash}/citizenshipBackHash`
         ).then(function (response) {

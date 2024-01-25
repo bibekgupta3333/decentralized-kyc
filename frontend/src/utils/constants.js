@@ -1,6 +1,6 @@
 import abi from "./DeKYC.json";
 
-const localContractAddress = "0xEb9238d325E04EdF4497164816eD5f40cA2bE105";
+const localContractAddress = "0x7ab6B1d473654880442484A65EAf0BB3e4722871";
 // const prodContractAddress = "0x0AF111565aFDbB0bfcF045efDFd219C2610e0793";
 export const contractAddress = localContractAddress;
 export const contractABI = abi.abi;
