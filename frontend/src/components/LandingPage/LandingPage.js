@@ -1,12 +1,12 @@
-import { Button } from "@mui/material";
-import React, { useContext } from "react";
-import { Link } from "react-router-dom";
-import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
-import { TransactionContext } from "../../context/TransactionContext";
-import PersonIcon from "@mui/icons-material/Person";
-import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
+import { Button } from "@mui/material"
+import React, { useContext } from "react"
+import { Link } from "react-router-dom"
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance"
+import { TransactionContext } from "../../context/TransactionContext"
+import PersonIcon from "@mui/icons-material/Person"
+import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount"
 function LandingPage() {
-  const { connectWallet, currentAccount } = useContext(TransactionContext);
+  const { connectWallet, currentAccount } = useContext(TransactionContext)
 
   return (
     <div>
@@ -634,12 +634,12 @@ function LandingPage() {
             data-aos="fade-down"
             data-aos-delay="500"
           >
-            Copyright © 2023 Decentralized KYC
+            Copyright © {new Date().getFullYear()} Decentralized KYC
           </p>
         </div>
       </footer>
     </div>
-  );
+  )
 }
 
-export default LandingPage;
+export default LandingPage
